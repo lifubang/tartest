@@ -1,3 +1,4 @@
 FROM busybox
 ADD ./README.md /
-CMD ["cat", "/README.md"]
+ADD ./README /
+CMD ["cat", "/README"]
